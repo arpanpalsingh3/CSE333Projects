@@ -1,0 +1,27 @@
+HW4 Feedback
+
+
+Test Suite: 250/250
+
+
+Valgrind: 5/5
+
+
+Modularity: 5/5
+
+
+Robustness and error checking: 8/10
+(-1) FileReader.cc: Does not check IsPathSafe(basedir_, fullfile).
+(-1) HttpServer_ThrFn closes the socket before HttpConnection is destructed. Since HttpConnection destructor closes the socket, this results in closing the socket twice.
+
+
+Comments, Blending with starter code and other style issues:  5/5
+
+
+Server Test:  10/10
+
+
+Extra Credit: 0/5
+
+
+Good job :)

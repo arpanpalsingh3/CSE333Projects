@@ -1,0 +1,31 @@
+HW3 Feedback
+
+
+Test Suite: 290/290
+
+
+Valgrind: 5/5
+
+
+Modularity: 4/5
+(-1) fwrite's something of a known length one byte at a time. | WriteIndex.cc:496, 626
+(-0) Calculates checksum reading one byte at a time. Read more bytes into a buffer instead of calling fread for every byte.
+
+
+Robustness and error checking: 5/5
+
+
+Comments, Blending, and other style issues: 4/5
+(-0) Using reinterpret_cast instead of a more appropriate cast. Generally, one should avoid using reinterpret_cast when they can.
+(-1) Uses base types (e.g. void*) when a defined type (e.g. LLPayload_t) would have been more appropriate. | WriteIndex.cc:429, 548, 553
+
+
+Search shell: 3/5
+(-1) Crashes (i.e. Verify333()) when handling the empty-string case.
+(-1) Does not handle EOF to shut down gracefully.
+
+
+(extra note) (-0) On WriteIndex.cc:169 and 199, double counts the header bytes.
+
+
+Extra Credit: 0/5

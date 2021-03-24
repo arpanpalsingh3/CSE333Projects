@@ -1,0 +1,8 @@
+Overall Grade: 2/3
+
+
+Feedback:
+[Minor] Whitespace mismatch
+[Significant] Implicit declaration of the method CopyAndSort. You should always
+	define a method before using it.
+[Minor] The CopyAndSort method should also have a method comment not just internal comments.

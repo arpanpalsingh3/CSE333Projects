@@ -1,0 +1,28 @@
+# Simple .gitignore file for CSE 333 21wi.
+# Files matching these patterns should not normally be added to repos.
+
+# Note: Unless you _really_ know what you're doing, please leave this
+# file as-is and do not change it.  Modifications that don't work as
+# expected might prevent files that should be pushed to your
+# repository from being stored there, causing projects to fail when
+# they are cloned or copied for testing or evaluation.
+
+# Compiler output
+*.o
+*.so
+*.a
+
+# but always keep the *.a and other files found in solution-binaries
+!**/solution_binaries/*
+
+# also keep everything in libhw[1-4], including .a library links
+!**/libhw[1-4]/*
+
+# also keep everything in gtest, including libgtest.a
+!**/gtest/*
+
+# emacs backup files
+*~
+
+# OS X finder files (doesn't happen on linux, but sometimes useful)
+.DS_Store

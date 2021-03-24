@@ -1,0 +1,14 @@
+Overall Grade: 2/3
+
+
+Feedback:
+
+Commenting Feedback:
+[Minor] Student name missing from the top of the file
+
+Code Quality Feedback:
+[Minor] Typedef'd the pointer in both the .h and .c file
+[Minor] Not checking to see if malloc fails
+[Significant] Not checking to see if the vector is NULL in any of the setter/
+  getter/print functions
+

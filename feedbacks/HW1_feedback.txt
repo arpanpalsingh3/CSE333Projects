@@ -1,0 +1,25 @@
+HW1 Feedback
+
+
+Test Suite: 215/215
+
+
+Valgrind: 5/5
+
+
+Modularity: 4/5
+(-1) HT helper function factors out some code, but could factor more things out.
+
+
+Blending with starter code: 5/5
+
+
+Robustness and error checking: 4/5
+(-1) Calling "free" instead of the appropriate function. E.g. free(iter) instead of LLIteratorFree(iter).
+
+
+Comments and other style issues: 4/5
+(-1) Needs better function comment on helper function. Does not describe return codes so caller has no idea what to do with the returned value.
+
+
+Bonus: /5

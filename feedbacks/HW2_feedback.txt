@@ -1,0 +1,28 @@
+HW2 Feedback
+
+
+Test Suite: 305/305
+
+
+Valgrind: 5/5
+
+
+Modularity: 4/5
+(-1) Re-implemented the functionality of DocTable_GetDocID instead of calling it in DocTable_Add
+
+
+Blending with starter code: 5/5
+
+
+Robustness and error checking: 4/5
+(-1) Fails to free memory/resources on error. @ FileParser.c:119 Doesn't call close(fd)
+
+
+Comments and other style issues: 5/5
+
+
+Search shell: 2/5
+(-2) Valgrind errors when running searchshell.
+(-1) searchshell does not exit gracefully upon EOF or Ctrl+D.
+
+Bonus: 0/5
